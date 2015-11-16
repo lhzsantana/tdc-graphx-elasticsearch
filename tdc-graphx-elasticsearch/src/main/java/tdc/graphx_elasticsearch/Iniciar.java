@@ -11,9 +11,9 @@ public class Iniciar {
 
 		Grafo grafo = new Grafo();
 		
-		TwitterReader reader = new TwitterReader("14642944-Vc8CNMHAAm8SHwcsFZnesnByankhZ9uv4k2bhaCJ8","U1Tboi3gfY5hhwLQdiAQpIfUPbLt3Y1tjht7faQ1WTTjT","6UzkHFDcN3IVTOhtvYETcB418","Veg1CfrL8I5uAkuaDtKASuIZC1mPHnXLiaxvB3KqJDjMwnxRY8");
+		TwitterReader reader = new TwitterReader("","","","");
 		
-		String nome = "LuizHZSantana";
+		String nome = "";
 		
 		User usuario = reader.getUsuario(nome);
 		
